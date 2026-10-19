@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vynn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header>
+      <h1>praktikum</h1>
+    </header>
+
+    <nav>
+      <div class="logo">MyWeb</div>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Data Diri</a></li>
+        <li><a href="hobi.html">Hobi</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <article>
+        <h2>Selamat Datang</h2>
+        <p>welkambek entah apa apa lah disini </p>
+        <img src="https://picsum.photos/600/250" alt="gambar">
+        <table>
+          <tr>
+            <th>Tag</th>
+            <th>Teknik CSS</th>
+          </tr>
+          <tr>
+            <td>nav</td>
+            <td>Flexbox</td>
+          </tr>
+          <tr>
+            <td>section</td>
+            <td>Grid</td>
+          </tr>
+        </table>
+        <a href="profil.html">Lihat Data Diri &rarr;</a>
+      </article>
+
+      <aside>
+        <h3>Info</h3>
+        <p>Klik link di bawah ini lek</p>
+        <a href="hobi.html">Cek Hobi</a>
+      </aside>
+    </section>
+
+    <footer>
+      <a href="profil.html">Data Diri</a> |
+      <a href="hobi.html">Hobi</a>
+      <p>&copy; 2026 Latihan PWD</p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
