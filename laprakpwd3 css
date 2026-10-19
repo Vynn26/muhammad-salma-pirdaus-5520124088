@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #cfd8dc;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 20px auto;
+  border: 2px solid #263238;
+}
+
+/* header */
+header {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* nav: flexbox, logo kiri, menu kanan */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4d5ce2;
+  padding: 12px 24px;
+}
+
+nav .logo {
+  color: #8afec6;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  background: #e0f2fe;
+  padding: 24px;
+}
+
+article {
+  background: #fffbeb;
+  border: 1px solid #263238;
+  padding: 16px;
+}
+
+aside {
+  background: #f3e8ff;
+  border: 1px solid #263238;
+  padding: 16px;
+}
+
+article img {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+th,
+td {
+  border: 1px solid #263238;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+th {
+  background: #f59e0b;
+  color: white;
+}
+
+/* footer */
+footer {
+  background: #263238;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #fef08a;
+}
+
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  section {
+    grid-template-columns: 1fr;
+  }
+}
